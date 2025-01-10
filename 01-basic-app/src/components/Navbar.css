@@ -1,0 +1,17 @@
+.Navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.Navbar li{
+    padding: 10px;
+}
+.Navbar{
+    padding: 20px;
+    background-color: beige;
+}
+.Navbar li:hover{
+    cursor: pointer;
+    background-color: rgb(245, 245, 190);
+    border-radius: 10px;
+}
