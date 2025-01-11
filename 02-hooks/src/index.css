@@ -1,0 +1,10 @@
+button{
+  padding: 10px;
+}
+*{
+  margin: auto;
+}
+.Count{
+  display: flex;
+  justify-content: center;
+}
