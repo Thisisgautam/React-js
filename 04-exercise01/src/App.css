@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar{
+  background-color: beige;
+padding: 20px;
+}
+.card{
+  width : 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+}
+.card img{
+  border-radius: 10px;
+  width: 100%;
+  align-self: center;
+}
+.cardcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card:hover{
+  cursor: pointer;
+  background-color: #818181c4;
+  transform: scale(1.05);
+}
